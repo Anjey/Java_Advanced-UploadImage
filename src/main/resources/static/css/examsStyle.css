@@ -1,0 +1,100 @@
+.container{
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.container label {
+    color: black;
+}
+.container input[type="text"],
+.container select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    /*font-size: 15px;*/
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 95%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 20px;
+}
+
+.container input[type="text"],
+.container select:focus{
+    background: #d2d9dd;
+}
+
+.container select{
+    -webkit-appearance: menulist-button;
+}
+
+.main-content .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+/*.main-content .container .speciality-data {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    flex-wrap: wrap;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.main-content .container .speciality-data input,*/
+/*.main-content .container .speciality-data select {*/
+/*    width: 100%;*/
+/*}*/
+
+.main-content .container .subject-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content .container .subject-data .subject {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40px;
+    margin: 10px;
+}
+
+.subject-data .subject .subject-name,
+.subject-data .subject .percent {
+    width: 100%;
+}
+
+.main-content .container .send-speciality-data {
+    text-align: center;
+}
+
+.send-speciality-data input[type="submit"]
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #1abc9c;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.send-speciality-data input[type="submit"]:hover
+{
+    background: #109177;
+}

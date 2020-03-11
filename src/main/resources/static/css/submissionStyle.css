@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+html, body {
+    background: #FCEEB5;
+    font-family: Abel, Arial, Verdana, sans-serif;
+}
+
+.card {
+    width: 100%;
+    height: 180px;
+    background: linear-gradient(#dE685E, #EE786E);
+    border-radius: 6px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.card .left-side {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.card .right-side {
+    flex: 1.8;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.card .left-side .top {
+    /*	flex-grow: 1;*/
+}
+
+.card .left-side .top h3,
+.card .right-side .top-university-info h3 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.card .left-side .bottom {
+    margin-top: 15px;
+    /*	flex-grow: 2;*/
+}
+
+.card .left-side .bottom h4{
+    margin: 0 0 5px 0;
+}
+
+.card .left-side .bottom .subject-and-value {
+    display: flex;
+    justify-content: space-between
+}
+
+.card .right-side .top-university-info {
+
+}
+
+.card .right-side .top-university-info h3 {
+    text-align: center;
+
+}
+
+.card .right-side .top-university-info h4 {
+    background: rgba(0,0,0,0.15);
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 20px;
+    width: 40%;
+}
+
+.card .right-side .submissionApply {
+    text-align: center;
+}
+
+.card .right-side .submissionApply input {
+    width: 20%;
+    height: 30px;
+    font-family: Abel, Arial, Verdana, sans-serif;
+    font-weight: bold;
+    background: rgba(0,0,0,0.25);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card .right-side .submissionApply input:hover {
+    background: rgba(0,0,0,0.7);
+    color: #fff
+}
